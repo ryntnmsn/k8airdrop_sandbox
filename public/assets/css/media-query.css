@@ -1,0 +1,85 @@
+@media only screen and (max-width:1900px) {
+    /* .main {max-width:1600px}
+    .container-main {max-width: 1000px;} */
+    /*.gallery-cell {height:135px!important}*/
+}
+
+@media only screen and (max-width:1700px) {
+    /* .main {max-width:1420px } */
+    /* .container-main {max-width: 815px;} */
+    /*h2 {font-size:18px}*/
+    .header-menu {width:80%}
+    /*.gallery-cell {height:115px!important}*/
+}
+
+@media only screen and (max-width:1400px) {
+    .container-promo-left, .container-promo-right{display:none}
+    .main {max-width:1200px}
+    .container-main {max-width: 1200px;}
+    .header-menu {width:60%}
+    /*.gallery-cell {height:auto!important}*/
+}
+
+@media only screen and (max-width:1024px) {
+    .container-promo-list {grid-template-columns: repeat(2, 1fr);}
+
+    #st-1 {background:#131620;}
+    .header-main {margin-top:0;}
+}
+
+@media only screen and (max-width:940px) {
+    .header-menu {width:100%}
+    .container-blog-list {grid-template-columns: repeat(2, 1fr);}
+}
+
+@media only screen and (max-width:991px) {
+    #st-1 {display: none!important;}
+    .navbar-toggler {display: none;}
+    .navbar-bottom {display: initial!important;}
+}
+
+@media only screen and (max-width:867px) {
+    .nba-scoreboard {height:200px}
+    .title-sub-cont {padding:0 30px}
+    .header-main {padding:0 20px!important}
+    .navbar-brand img {width:90px!important}
+}
+
+@media only screen and (max-width:640px) {
+
+    .promo-container-results-column-date {padding:0 20px}
+    .result-single-container-column-image {display: block; width: 100%;}
+    .result-single-container-column-details{display: block; width: 100%; padding:20px 0 0 0}
+    .result-single-container-column {padding:20px 0 0 0; display: block; width: 100%;}
+	#mc_embed_signup form {margin:0!important; padding:0!important}
+    .container-blog-list {grid-template-columns: repeat(1, 1fr);}
+}
+
+@media only screen and (max-width:550px) {
+
+	.link-table-cell-left {padding:5px 10px}
+    .nba-scoreboard-cont {margin-top:85px!important}
+    .header-logo img {width:120px}
+    .header-menu-item a {font-size:18px}
+    .title-container {margin:120px 0 50px 0}
+    .container-promo-list {grid-template-columns: repeat(1, 1fr);}
+    .header-main {padding:5px; position: absolute; top:0; left:0; border-radius: 0;}
+    .header-sub:first-child {width:30%};
+    .header-sub:last-child {width:70%};
+    .title-container h1 {font-size:36px}
+    h1 {font-size:32px}
+    .footer-icons img{width:24px}
+    .footer {padding:150px 20px}
+    .container-margin-top {margin-top:60px!important}
+    .container-margin-top-body {margin-top:15px!important}
+    .promo-frame-details-bottom {padding:20px 0!important}
+    .link-url p{ overflow:hidden; text-overflow:ellipsis; white-space:nowrap; max-width:200px}
+    .gallery-cell {width:75%!important}
+    .container-blog-right {display:none!important;}
+    .promo-frame {border-radius:0;}
+    .navbar-brand img {margin-left:0;}
+    .container-fluid {padding-left:0; padding-right:0;}
+    html {background-image:none;}
+    .promo-container-results-column-details h5 {font-size:18px;}
+
+}
